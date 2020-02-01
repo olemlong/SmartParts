@@ -1,5 +1,7 @@
 # SmartParts
-A smart and glowing storage system for electronic components.
+A smart and glowing storage system for electronic components.  
+
+https://www.youtube.com/watch?v=v1Y57d32keY
 
 Ever since I started working with electronics, the pile of parts has been growing to the point where it took forever to find the correct part. The first step in solving this madnes was to get a cabinet and labelmaker. 
 With the cabinet stacked with components, and each drawer labeled, I saw the problem as history.
