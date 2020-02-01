@@ -41,6 +41,10 @@ You can use whatever casing you want.
 Cabinet layout
 ![](images/CabinetLayout.png)
 
+
+Software requirements:
+Arduino IDE with support for ESP8266 + some libs (se source)
+Python 3 with paho mqtt, mysql connector and PyQy5
 How it all works  
   
   All the parts are stored in a MySql database. Each part has coordinates coresponding to the placement in the cabinets, like an address. This address is composed of four values (W,X,Y,Z).  
