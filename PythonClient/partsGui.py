@@ -9,12 +9,12 @@ from PyQt5.uic import loadUi
 class MainGui(QDialog):
 	def __init__(self):
 		#config. to be implemented in GUI
-		ip = "192.168.1.32"
-		user = "olemlong"
-		password = "123456123"
-		database = "testdb"
-		numberOfCabinets = 9
-		self.useMqtt = 1
+		ip = "" #ipaddress of MQTT and MySql Server
+		user = "" #username for the MySql Server
+		password = "" #password for the MySql server
+		database = "" #database name for the MySql server
+		numberOfCabinets = 9 #number of cabinets that have an esp8266 controller.
+		self.useMqtt = 1 #if you want to use the MQTT led system with the client. Normaly turned off (0) when accessing the system remote.
 		
 		#load GUI for userinterface file made in QT designer.
 		super(MainGui, self).__init__()
