@@ -28,7 +28,7 @@ Cabinet controller (ESP8266)
 ![](images/Esp8266.png)
 
 This controls the cabinet. When the controller connects to the wifi network, the controller is ready for data input.  
-It subscribes to a topic that coresponds to the cabinet number. When the client software publishes data on this topic, the controller will light up leds according to this data.  
+It subscribes to a topic that coresponds to the cabinet number. When the client software publishes data on this topic, the controller will light up leds according to this data. I use one 230v -> 5v 1A power supply for each cabinet (2 pin plug). The 3 pin plug is 5v, GND and data for the leds.  
   
   
 Server 
