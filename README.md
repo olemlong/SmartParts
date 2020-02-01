@@ -18,3 +18,6 @@ The hardware requirements:
   
 The LED PCB is optional. You could always buy a roll of the WS2812b leds on ebay and cut it to length. Just a warning, this is what i did in the first cabinet and why i designed the PCB, it is alot of work, the double sided tape falls off and it is a bitch to cut and solder each led.
 
+How it all works  
+  
+  all the parts are stored in a MySql database. Each part has coordinates coresponding to the placement in the cabinets, like an address. This address is composed of four values (W,X,Y,Z).
