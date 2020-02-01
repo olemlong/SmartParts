@@ -104,5 +104,3 @@ class dbInterface():
 	
 	def reconnect(self):
 		self.connect(self.ip)
-				
-#"83.243.212.20"
