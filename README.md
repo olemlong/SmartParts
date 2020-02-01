@@ -37,3 +37,11 @@ Z -The compartment coordinate. Each drawer can be devided into 4 compartments.
 The Flow of data.  
 
 ![](images/FlowChart.png)
+
+Whats with the colors?
+The colors indicates what compartment the component is in.
+Red empty drawer.  
+Yellow first compartment.  
+Green second compartment.  
+Blue third compartment.  
+Purple forth compartment.
