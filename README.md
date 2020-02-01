@@ -24,7 +24,7 @@ The LED PCB is optional. You could always buy a roll of the WS2812b leds on ebay
 
 Server 
 
-![](images/Server.png)
+![](images/server.png)
 
 I built a little casing for my Raspberry with a screen showing load and IP address.  
 You can use whatever casing you want.
