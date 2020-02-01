@@ -20,8 +20,8 @@ The LED PCB is optional. You could always buy a roll of the WS2812b leds on ebay
 
 How it all works  
   
-  all the parts are stored in a MySql database. Each part has coordinates coresponding to the placement in the cabinets, like an address. This address is composed of four values (W,X,Y,Z).
-W -The cabinet coordinate. 1 = cabinet 1, 2 = cabinet 2, and so on.
-X -The column coordinate. 1 = column 1, 2 = column 2, and so on. I only have 5 columns in my cabinets.
-Y -The row coordinate. 1 = row 1, 2 = row 2, and so on. 
-Z -The compartment coordinate. Each drawer can be devided into 4 compartments. 
+  all the parts are stored in a MySql database. Each part has coordinates coresponding to the placement in the cabinets, like an address. This address is composed of four values (W,X,Y,Z).  
+W -The cabinet coordinate. 1 = cabinet 1, 2 = cabinet 2, and so on.  
+X -The column coordinate. 1 = column 1, 2 = column 2, and so on. I only have 5 columns in my cabinets.  
+Y -The row coordinate. 1 = row 1, 2 = row 2, and so on.   
+Z -The compartment coordinate. Each drawer can be devided into 4 compartments.   
