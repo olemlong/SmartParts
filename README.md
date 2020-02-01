@@ -18,10 +18,17 @@ The hardware requirements:
   
 The LED PCB is optional. You could always buy a roll of the WS2812b leds on ebay and cut it to length. Just a warning, this is what i did in the first cabinet and why i designed the PCB, it is alot of work, the double sided tape falls off and it is a bitch to cut and solder each led.
 
+Cabinet layout
+![](images/CabinetLayout.png)
+
 How it all works  
   
-  all the parts are stored in a MySql database. Each part has coordinates coresponding to the placement in the cabinets, like an address. This address is composed of four values (W,X,Y,Z).  
+  All the parts are stored in a MySql database. Each part has coordinates coresponding to the placement in the cabinets, like an address. This address is composed of four values (W,X,Y,Z).  
 W -The cabinet coordinate. 1 = cabinet 1, 2 = cabinet 2, and so on.  
 X -The column coordinate. 1 = column 1, 2 = column 2, and so on. I only have 5 columns in my cabinets.  
 Y -The row coordinate. 1 = row 1, 2 = row 2, and so on.   
 Z -The compartment coordinate. Each drawer can be devided into 4 compartments.   
+
+
+The Flow of data.
+![](images/FlowChart.png)
