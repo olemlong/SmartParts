@@ -9,3 +9,10 @@ As a few months passed by, the cabinet was full and i needed another cabinet to 
 Now instead of searching in a desk drawer filled with all kinds of parst, i searched 6 cabinets for the correct labeled drawer. This became a pain. So i started thinking of a system that could indicate the correct drawer based on a search. This is when the SmartParts system was born.
 
 ![](images/Cabinets.png)
+
+The hardware requirements:
+-Raspberry Pi (for running the MySql and MQTT server)
+-Esp8266 controller (one controller for each cabinet)
+-WS2812b LED (one for each drawer)
+-LED PCB (one for each row in the cabinet)
+
