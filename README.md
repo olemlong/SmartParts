@@ -15,6 +15,7 @@ The hardware requirements:
 -Esp8266 controller (one controller for each cabinet)  
 -WS2812b LED (one for each drawer)  
 -LED PCB (one for each row in the cabinet)  
+-WiFi
 
 PCB
 
@@ -26,6 +27,10 @@ Cabinet controller (ESP8266)
 
 ![](images/Esp8266.png)
 
+This controls the cabinet. When the controller connects to the wifi network, the controller is ready for data input.  
+It subscribes to a topic that coresponds to the cabinet number. When the client software publishes data on this topic, the controller will light up leds according to this data.  
+  
+  
 Server 
 
 ![](images/server.png)
