@@ -10,9 +10,9 @@ Now instead of searching in a desk drawer filled with all kinds of parst, i sear
 
 ![](images/Cabinets.png)
 
-The hardware requirements:
--Raspberry Pi (for running the MySql and MQTT server)
--Esp8266 controller (one controller for each cabinet)
--WS2812b LED (one for each drawer)
--LED PCB (one for each row in the cabinet)
-
+The hardware requirements:  
+-Raspberry Pi (for running the MySql and MQTT server)  
+-Esp8266 controller (one controller for each cabinet)  
+-WS2812b LED (one for each drawer)  
+-LED PCB (one for each row in the cabinet)  
+  
