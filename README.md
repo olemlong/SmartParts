@@ -15,6 +15,10 @@ The hardware requirements:
 -Esp8266 controller (one controller for each cabinet)  
 -WS2812b LED (one for each drawer)  
 -LED PCB (one for each row in the cabinet)  
+
+PCB
+
+![](images/PCB.png)
   
 The LED PCB is optional. You could always buy a roll of the WS2812b leds on ebay and cut it to length. Just a warning, this is what i did in the first cabinet and why i designed the PCB, it is alot of work, the double sided tape falls off and it is a bitch to cut and solder each led.
 
