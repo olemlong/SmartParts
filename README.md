@@ -36,7 +36,7 @@ Server
 ![](images/server.png)
 
 I built a little casing for my Raspberry with a screen showing load and IP address.  
-You can use whatever casing you want.
+You can use whatever casing you want.  You can run what image you want, as long as it runs an MySql server and an MQTT server.
 
 Cabinet layout
 ![](images/CabinetLayout.png)
