@@ -45,7 +45,7 @@ The Flow of data.
 
 ![](images/FlowChart.png)
 
-Whats with the colors?
+Whats with the colors?  
 When a search is done, the drawers light up with a color. The color indicates the compartment in the drawer the component is in.
 Red empty drawer.  
 Yellow first compartment.  
