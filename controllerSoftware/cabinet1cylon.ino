@@ -1,10 +1,3 @@
-/*TODO:
-   remove W from data packet. only X Y Z. maybe impliment check for bogus coordinates that do not exist in led array.
-   wifi server setup ?
-   make PCB for kontroller that fit in drawer.
-*/
-
-
 
 #include <FastLED.h>
 #include <ESP8266WiFi.h>
@@ -41,9 +34,9 @@ PubSubClient client(espClient);
 
 
 // Change the credentials below, so your ESP8266 connects to your router
-const char* ssid = "BatSignal";
-const char* password = "ironmann";
-const char* mqtt_server = "192.168.1.32";
+const char* ssid = "";
+const char* password = "";
+const char* mqtt_server = "";
 
 // Param for different pixel layouts
 const bool    kMatrixSerpentineLayout = true;
