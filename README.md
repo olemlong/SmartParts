@@ -22,6 +22,13 @@ PCB
   
 The LED PCB is optional. You could always buy a roll of the WS2812b leds on ebay and cut it to length. Just a warning, this is what i did in the first cabinet and why i designed the PCB, it is alot of work, the double sided tape falls off and it is a bitch to cut and solder each led.
 
+Server 
+
+![](images/Server.png)
+
+I built a little casing for my Raspberry with a screen showing load and IP address.  
+You can use whatever casing you want.
+
 Cabinet layout
 ![](images/CabinetLayout.png)
 
@@ -39,7 +46,7 @@ The Flow of data.
 ![](images/FlowChart.png)
 
 Whats with the colors?
-The colors indicates what compartment the component is in.
+When a search is done, the drawers light up with a color. The color indicates the compartment in the drawer the component is in.
 Red empty drawer.  
 Yellow first compartment.  
 Green second compartment.  
