@@ -6,6 +6,7 @@
 #include <WiFiUdp.h>
 #include <ArduinoOTA.h>
 
+//if your cabinet has less or more, this must be changed.
 #define NUM_LEDS 60
 
 // Data pin that led data will be written out over
@@ -21,11 +22,12 @@
 #define SPARKING 120
 #define BRIGHTNESS 200
 
+//this needs to be unique for each cabinet. use these setting only for your first cabinet.
 #define CONTROLLERNAME "smartPartsCabinet1"
 #define SUBTOPIC "parts/cabinet1"
 #define WATCHDOGTOPIC "parts/watchdog1"
 
-// Params for width and height
+// Params for rows and columns.
 const uint8_t kMatrixWidth = 5;
 const uint8_t kMatrixHeight = 9;
 
