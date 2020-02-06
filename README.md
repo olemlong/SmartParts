@@ -1,3 +1,4 @@
+
 # SmartParts
 A smart and glowing storage system for electronic components.  
 
@@ -45,6 +46,8 @@ Cabinet layout
 
 PCB mounting in cabinet
 ![](images/DF7E039C-A656-4165-82AD-C389EC491362.jpeg)
+
+![](images/CF1B5AFE-CCE0-4CEC-96E7-288A19D69D1C.jpeg)
 
 
 Software requirements:
