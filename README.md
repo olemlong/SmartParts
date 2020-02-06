@@ -43,6 +43,9 @@ You can use whatever casing you want.  You can run what image you want, as long 
 Cabinet layout
 ![](images/CabinetLayout.png)
 
+PCB mounting in cabinet
+![](images/DF7E039C-A656-4165-82AD-C389EC491362.jpeg)
+
 
 Software requirements:
 Arduino IDE with support for ESP8266 + some libs (se source)
@@ -72,4 +75,3 @@ Purple forth compartment.
 https://www.youtube.com/watch?v=v1Y57d32keY
 
 https://www.youtube.com/watch?v=QyOVx2Oqz8I
-
